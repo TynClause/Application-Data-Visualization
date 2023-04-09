@@ -7,7 +7,11 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<VBox fx:id="linePlotID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="856.0" prefWidth="669.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.visdat.LinePlot">
+<VBox fx:id="linePlotID" maxHeight="-Infinity"
+      maxWidth="-Infinity" minHeight="-Infinity"
+      minWidth="-Infinity" prefHeight="856.0" prefWidth="669.0"
+      xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.visdat.LinePlot">
    <children>
       <MenuBar>
         <menus>
