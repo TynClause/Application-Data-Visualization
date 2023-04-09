@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox  minHeight="-Infinity" minWidth="-Infinity" prefHeight="239.0"
+       prefWidth="398.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+       xmlns:fx="http://javafx.com/fxml/1"
+       fx:controller="com.example.visdat.ControllerScreen">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" onAction="#closeApp"/>
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" onAction="#about"/>
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label alignment="CENTER" contentDisplay="TOP" prefHeight="49.0"
+             prefWidth="600.0" text="Data Visualization" textAlignment="CENTER">
+         <font>
+            <Font name="Geeza Pro Regular" size="33.0" />
+         </font></Label>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-spacing: 30;">
+         <children>
+            <Button mnemonicParsing="false" text="Line Plot" onAction="#linePlotScreen"/>
+            <Button mnemonicParsing="false" text="Bar Plot" onAction="#barPlotScreen"/>
+            <Button mnemonicParsing="false" text="Scatter Plot" onAction="#scatterPlotScreen"/>
+         </children></HBox>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="38.0" prefHeight="49.0" prefWidth="600.0" text="Version 0.0.1" textAlignment="CENTER">
+         <font>
+            <Font name="Geeza Pro Regular" size="11.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
